@@ -1,0 +1,25 @@
+{
+  "name": "my_nice_project",
+  "version": "2.0.0",
+  "description": "my description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "nodemon run.js rauf HEDGEHOGS 3232323",
+    "test": "node jest run.js"
+  },
+  "author": "HEDGEHOGS",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "eslint-plugin-prettier": "^3.3.1",
+    "faker": "^5.4.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
